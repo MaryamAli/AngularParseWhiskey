@@ -1,0 +1,8 @@
+<h1>Add</h1>
+
+<!-- on line 4, b/c whisky.name & maker are under whiskey, only need that in submit -->
+<form ng-submit='addWhiskey(whiskey)'>
+  <input placeholder='Whiskey Name' ng-model='whiskey.name'>
+  <input placeholder='Whiskey Maker' ng-model='whiskey.maker'>
+  <button>Add Whiskey</button>
+</form>
